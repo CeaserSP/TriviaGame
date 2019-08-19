@@ -7,6 +7,13 @@ function startScreen() {
       x.style.display = "none";
     }
   }
+
+// $("#show").click(function () {
+//     $("start").show();
+// });
+// $("#hide").click(function () {
+//     $("start").hide();
+// });
 // Timer
 
 // Three sets of checkboxs
