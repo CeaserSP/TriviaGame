@@ -1,19 +1,11 @@
 // Start button page
 function startScreen() {
-    var x = document.getElementById("start");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
 
-// $("#show").click(function () {
-//     $("start").show();
-// });
-// $("#hide").click(function () {
-//     $("start").hide();
-// });
+$("#startButton").click(function () {
+    $(".question").show();
+    $(".button").hide();
+});
+}
 // Timer
 
 // Three sets of checkboxs
