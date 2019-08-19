@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- reset link -->
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Trivia Game</title>
 </head>
 
@@ -22,18 +25,34 @@
 
 
     <!-- <div class="startScreen"> -->
-        <div class="button">
-            <button id="startButton" onclick="startScreen()">Start</button>
+    <div class="button">
+        <button id="startButton" onclick="startScreen()">Start</button>
         <!-- </div> -->
     </div>
-    <div class = "question">
-    <p class="header">Sports Trivia</p>
-    <p class="timer">Time Remaining: </p>
-    <p class="q1">In what year was the city of Dallas granted an NFL expansion franchise?</p>
-    <p class="q2">What Dallas Cowboys running back set an NFL record with a 99 yard touchdown run against the Minnesota
-        Vikings?</p>
-    <p class="q3">The 2014 season ended on an overturned call of a completed catch by what receiver?</p>
-</div>
+    <div class="question">
+        <p class="header">Sports Trivia</p>
+        <p class="timer">Time Remaining: </p>
+        <p class="q1">In what year was the city of Dallas granted an NFL expansion franchise?</p>
+        <label class="radio-inline"><input type="radio" name="questionOne" >Option 1</label>
+        <label class="radio-inline"><input type="radio" name="questionOne">Option 3</label>
+        <label class="radio-inline"><input type="radio" name="questionOne">Option 3</label>
+        <label class="radio-inline"><input type="radio" name="questionOne">Option 3</label>
+        <p class="q2">What Dallas Cowboys running back set an NFL record with a 99 yard touchdown run against the
+            Minnesota
+            Vikings?</p>
+        <label class="radio-inline"><input type="radio" name="questionTwo">Option 2</label>
+        <label class="radio-inline"><input type="radio" name="questionTwo">Option 3</label>
+        <label class="radio-inline"><input type="radio" name="questionTwo">Option 3</label>
+        <label class="radio-inline"><input type="radio" name="questionTwo">Option 3</label>
+        <p class="q3">The 2014 season ended on an overturned call of a completed catch by what receiver?</p>
+        <label class="radio-inline"><input type="radio" name="questionThree">Option 3</label>
+        <label class="radio-inline"><input type="radio" name="questionThree">Option 3</label>
+        <label class="radio-inline"><input type="radio" name="questionThree">Option 3</label>
+        <label class="radio-inline"><input type="radio" name="questionThree">Option 3</label>
+    </div>
+    <div class="score">
+
+    </div>
 </body>
 
 </html>
